@@ -86,7 +86,7 @@ const btns = document.querySelectorAll('#alphabet-buttons button');
 btns.forEach(btn => {
   btn.classList.add('bg-gray-300');
   btn.addEventListener('click', () => {
-    btn.classList.add('bg-gray-100');
+    btn.classList.add('bg-gray-50');
     btn.classList.add('text-gray-300');
     btn.disabled = true;
 
@@ -94,4 +94,3 @@ btns.forEach(btn => {
     guessLetter(btnValue);
   });
 });
-  
